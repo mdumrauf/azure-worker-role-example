@@ -1,0 +1,2 @@
+azure-worker-role-example
+=========================
