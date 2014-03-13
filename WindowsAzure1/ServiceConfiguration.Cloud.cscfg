@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="WindowsAzure1" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2013-10.2.2">
+  <Role name="WorkerRoleWithSBQueue">
+    <Instances count="2" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=mutaito;AccountKey=dh07lwtWp9D+c/R/hgnUhajMbstwChab86CySv6gYrO23JPnv8kUlcrReIFliXjp1F+4PQbGdSbsAeuxFREccg==" />
+      <Setting name="Microsoft.ServiceBus.ConnectionString" value="Endpoint=sb://namekusei.servicebus.windows.net/;SharedSecretIssuer=owner;SharedSecretValue=9eXKzRjNdluaC8GKHdXUT7xFIfeSzZaEKftzBZGKGwM=" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
